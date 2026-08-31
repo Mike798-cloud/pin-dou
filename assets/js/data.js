@@ -1,16 +1,16 @@
 window.XM_DATA = (() => {
   const patterns = {
     umbrella: [
-      '...............','......B........','....BBBBB......','...BBBBBBB.....','..BBBBBBBBB....','.BBBBBBBBBBB...','BBBBBBBBBBBBB..','.....W.B.W.....','.....W.B.W.....','.......B.......','.......B.......','.......B.......','.......B.......','.......BB......','...............'
+      '.................','........S........','.......SBS.......','.....SBBBBBS.....','....SBBBBBBBS....','...SBBBBBBBBBS...','..SBBBBBBBBBBBS..','.SBBBBBBBBBBBBBS.','.SS.SS.SSS.SS.SS.','........S........','........S........','........S........','........S........','........S.S......','........SSS......','.................','.................'
     ],
     store: [
-      '....................','....YYYYYYYYYYYY....','...YWWWWWWWWWWWWY...','..YWWRRWWWWBBWWWWY..','..YWWRRWWWWBBWWWWY..','..YWWRRWWWWBBWWWWY..','..YWWWWWWWWWWWWWWY..','..YYYYYYYYYYYYYYYY..','..SSSSSSSSSSSSSSSS..','..S..PP....GG....S..','..S.PPPP..GGGG...S..','..S.PPPP..GGGG...S..','..S..PP....GG....S..','..S............S....','..SSSSSSSSSSSSSSSS..','.....W........W.....','.....W........W.....','....BBB......BBB....','....................','....................'
+      '........................','........................','........................','........................','..SSSSSSSSSSSSSSSSSSSS..','..SYYYYYYYYYYYYYYYYYYS..','..S....WWWWWWWWWW....S..','..S..................S..','..SWRRWWRRWWRRWWRRWWRS..','..SWRRWWRRWWRRWWRRWWRS..','..S...........SSSSSS.S..','..S.SSSSSSSS..SCCCCS.S..','..S.SCCCSCCS..SCCCCS.S..','..S.SCCCSCCS..SCCCCS.S..','..S.SCCCSCCS..SCCCCS.S..','..S.SCCCSCCS..SWWWWS.S..','..S.SCCCSCCS..SWWWRS.S..','..S.SCCCSCCS..SWWWWS.S..','..S.SSSSSSSS..SWWWWS.S..','..SG..........SSSSSSGS..','..SGSSSSSSSSSSSSSSSSGS..','.SSSSSSSSSSSSSSSSSSSSSS.','........................','........................'
     ],
     station: [
-      '..................','.......SS.........','......SSSS........','.....SSWWSS.......','.....SSWWSS.......','.....SSBBSS.......','.....SSBBSS.......','......SSSS........','.......SS.........','.......SS.........','...YYYYSSYYYY.....','...Y...SS...Y.....','...Y...SS...Y.....','...YYYYYYYYYY.....','....W......W......','...BBB....BBB.....','..................','..................'
+      '....................','....................','...SSSSSSS..........','...SWWWWWS..........','...SWBBBWS..........','...SWBWBWS..........','...SWWWWWS..........','...SSSSSSS..........','......S..SSSSSSSSS..','......S..........S..','......S..........S..','......S..........S..','......S...YYYYYYY...','......S...SSSSSSS...','......S....S...S....','......S.............','......S.............','.SSSSSSSSSSSSSSSSSS.','...........CCCC.....','....................'
     ],
     table: [
-      '..................','..SSSSSSSSSSSSSS..','..S............S..','..S.PP....GG...S..','..SPPPP..GGGG..S..','..SPPPP..GGGG..S..','..S.PP....GG...S..','..S....WW......S..','..S....WW......S..','..S.R......B...S..','..S.RR....BB...S..','..S............S..','..SSSSSSSSSSSSSS..','....W....W........','....W....W........','...BBBBBBBBBB.....','..................','..................'
+      '......................','......................','......................','..SSSSSSSSSSSSSSSSSS..','..S................S..','..S................S..','..S..PW.WW....GW...S..','..S.PPP..WW..GGG...S..','..S..P...WW...G....S..','..S.......WW.......S..','..S......WW........S..','..S.RRR.WW.........S..','..S.RRR............S..','..S.RRR............S..','..S................S..','..SSSSSSSSSSSSSSSSSS..','.................BBB..','........SSSSSS..BBBBB.','........SWWWWS....B...','........S....S....B...','..................BB..','......................'
     ]
   };
 
@@ -93,9 +93,9 @@ window.XM_DATA = (() => {
       {id:'p18', date:'2022/06/01 09:20', author:'小满豆作', title:'欢迎来到小满豆作', tags:['门店'], visual:'assets/img/post-p18-card.jpg', detailVisual:'assets/img/post-p18-detail.jpg', text:'把喜欢的东西，一颗一颗留下来。', comments:['海盐：那时候还只有两张桌子。','阿闻：后来才慢慢把色墙补齐。','木木：原来我已经看着这个店开这么久了。','橘子：当时路过以为是咖啡店。','青提：我第一次来还是被朋友拉进来的。']}
     ],
     works: [
-      {id:'w01',project:'umbrella',name:'蓝色小雨伞',owner:'林未',date:'2024/07/19',type:'个人项目',status:'草稿恢复',color:'M42',desc:'15×15，小挂件。旧设备上留有一份未同步草稿。'},
-      {id:'w02',project:'store',name:'便利店门口',owner:'林未 / 唐梨',date:'2024/08/17',type:'搭子项目',status:'草稿',color:'M42',desc:'20×20，共同项目。'},
-      {id:'w03',project:'station',name:'公交站牌',owner:'林未 / 唐梨',date:'2024/08/17',type:'搭子项目',status:'旧图修复',color:'M42',desc:'18×18，历史预览存在缺色。'},
+      {id:'w01',project:'umbrella',name:'蓝色小雨伞',owner:'林未',date:'2024/07/19',type:'个人项目',status:'草稿恢复',color:'M42',desc:'17×17，小挂件。深灰轮廓、灰蓝伞面和弯柄都保留在旧草稿里。'},
+      {id:'w02',project:'store',name:'便利店门口',owner:'林未 / 唐梨',date:'2024/08/17',type:'搭子项目',status:'草稿',color:'M58',desc:'24×24，共同项目。红白雨棚、两扇橱窗和玻璃门都能从完整预览里辨认。'},
+      {id:'w03',project:'station',name:'公交站牌',owner:'林未 / 唐梨',date:'2024/08/17',type:'搭子项目',status:'旧图修复',color:'M42',desc:'20×20，历史预览存在缺色。站牌、遮雨棚和长凳仍能从轮廓辨认。'},
       {id:'w04',name:'小猫杯垫',owner:'唐梨',date:'2025/04/11',type:'公开返图',status:'已完成',color:'M08',desc:'失败品，边缘熨坏。'},
       {id:'w05',name:'灰蓝边框',owner:'唐梨',date:'2025/07/19',type:'公开返图',status:'已完成',color:'M31',desc:'20×20，旧版色号。'},
       {id:'w06',project:'final',name:'IMG_0726',owner:'林未 / 唐梨',date:'2025/07/26',last:'2025/08/03 22:17',type:'搭子项目',status:'需兼容',color:'M31',desc:'旧版图纸预览不可用；版本历史仍可读取。'},
@@ -103,22 +103,22 @@ window.XM_DATA = (() => {
     ],
     projects: {
       umbrella: {
-        id:'umbrella', referenceImage:'assets/img/reference-umbrella.svg', referenceThumb:'assets/img/project-umbrella-thumb.jpg', title:'蓝色小雨伞', subtitle:'旧设备草稿 · 补全', size:15, pattern:patterns.umbrella,
-        palette:{B:{code:'M42',name:'灰蓝',hex:'#6d8396'},W:{code:'M01',name:'奶白',hex:'#e8e4d8'}},
-        missingRate:0.46, notes:'2024/07/19 · 雨天。旧设备里还有一份没来得及同步的草稿。',
-        completeText:'草稿已补全。熨烫预览里，那把伞和作品广场旧返图中的颜色几乎一样。'
+        id:'umbrella', referenceImage:'assets/img/reference-umbrella.svg', referenceThumb:'assets/img/project-umbrella-thumb.jpg', title:'蓝色小雨伞', subtitle:'旧设备草稿 · 补全', size:17, pattern:patterns.umbrella,
+        palette:{B:{code:'M42',name:'灰蓝',hex:'#6d8396'},S:{code:'M73',name:'深灰',hex:'#565b60'}},
+        missingRate:0.38, notes:'2024/07/19 · 雨天。旧设备里还有一份没来得及同步的草稿；完整轮廓是一把展开的小伞。',
+        completeText:'草稿已补全。灰蓝伞面、深灰伞骨和弯曲伞柄都完整连在一起——这次不用看标题，也能认出是一把小雨伞。'
       },
       store: {
-        id:'store', referenceImage:'assets/img/reference-store.svg', referenceThumb:'assets/img/project-store-thumb.jpg', title:'便利店门口', subtitle:'共同项目 · 继续编辑', size:20, pattern:patterns.store,
-        palette:{Y:{code:'M16',name:'奶黄',hex:'#d7b968'},W:{code:'M01',name:'奶白',hex:'#e8e4d8'},R:{code:'M26',name:'莓红',hex:'#a86468'},B:{code:'M42',name:'灰蓝',hex:'#6d8396'},S:{code:'M73',name:'深灰',hex:'#565b60'},P:{code:'M51',name:'粉紫',hex:'#ad899a'},G:{code:'M34',name:'鼠尾草',hex:'#84957f'}},
-        missingRate:0.46, notes:'2024/08/17 · 两杯饮料、站牌和一个没收好的雨伞。',
-        completeText:'共同草稿已补全。右下角那块灰蓝没有被系统强调，但你知道它在画什么。'
+        id:'store', referenceImage:'assets/img/reference-store.svg', referenceThumb:'assets/img/project-store-thumb.jpg', title:'便利店门口', subtitle:'共同项目 · 继续编辑', size:24, pattern:patterns.store,
+        palette:{S:{code:'M73',name:'深灰',hex:'#565b60'},Y:{code:'M16',name:'奶黄',hex:'#d7b968'},W:{code:'M01',name:'奶白',hex:'#e8e4d8'},R:{code:'M26',name:'莓红',hex:'#a86468'},C:{code:'M58',name:'雾青',hex:'#91aaa6'},G:{code:'M34',name:'鼠尾草',hex:'#84957f'}},
+        missingRate:0.30, notes:'2024/08/17 · 便利店正面。红白条纹雨棚、左侧橱窗、右侧玻璃门和门口的绿植都留在完整预览里。',
+        completeText:'共同草稿已补全。红白雨棚横在门头下方，左边是分格橱窗，右边是带把手的玻璃门——画面现在很明确是一家便利店的正门。'
       },
       station: {
-        id:'station', referenceImage:'assets/img/reference-station.svg', referenceThumb:'assets/img/project-station-thumb.jpg', title:'公交站牌', subtitle:'旧图修复 · 历史预览', size:18, pattern:patterns.station,
-        palette:{S:{code:'M73',name:'深灰',hex:'#565b60'},W:{code:'M01',name:'奶白',hex:'#e8e4d8'},B:{code:'M42',name:'灰蓝',hex:'#6d8396'},Y:{code:'M16',name:'奶黄',hex:'#d7b968'}},
-        missingRate:0.48, notes:'2024/08/17 · 旧图纸曾出现断色。阿闻说当时是照着历史预览一点点补回来的。',
-        completeText:'修复完成。预览右侧那块灰蓝和“便利店门口”的雨伞用了同一个色号。'
+        id:'station', referenceImage:'assets/img/reference-station.svg', referenceThumb:'assets/img/project-station-thumb.jpg', title:'公交站牌', subtitle:'旧图修复 · 历史预览', size:20, pattern:patterns.station,
+        palette:{S:{code:'M73',name:'深灰',hex:'#565b60'},W:{code:'M01',name:'奶白',hex:'#e8e4d8'},B:{code:'M42',name:'灰蓝',hex:'#6d8396'},Y:{code:'M16',name:'奶黄',hex:'#d7b968'},C:{code:'M58',name:'雾青',hex:'#91aaa6'}},
+        missingRate:0.40, notes:'2024/08/17 · 旧图纸曾出现断色。完整预览里，左边是方形站牌和立柱，右边是遮雨棚下的长凳。',
+        completeText:'修复完成。左侧方形站牌、细长立柱、右侧遮雨棚和黄色长凳已经连成完整场景；地面还留着一小片雾青色雨水。'
       },
       free16: {
         id:'free16', free:true, freeLabel:'小底板', freeUse:'头像、挂件、简易图案', title:'自由拼豆 · 16×16', subtitle:'小底板 · 自由创作', size:16, pattern:Array(16).fill('.'.repeat(16)),
@@ -141,10 +141,10 @@ window.XM_DATA = (() => {
         missingRate:1, notes:'细节空间最大；建议使用缩放和移动画布，草稿会持续自动保存。 自由画布只保存在当前浏览器，不会进入旧作品档案，也不会影响主线迁移。', completeText:''
       },
       final: {
-        id:'final', referenceImage:'assets/img/reference-final.svg', title:'IMG_0726', subtitle:'共同项目 · 旧版兼容', size:18, pattern:patterns.table,
+        id:'final', referenceImage:'assets/img/reference-final.svg', title:'IMG_0726', subtitle:'共同项目 · 旧版兼容', size:22, pattern:patterns.table,
         palette:{S:{code:'M73',name:'深灰',hex:'#565b60'},P:{code:'M51',name:'粉紫',hex:'#ad899a'},G:{code:'M34',name:'鼠尾草',hex:'#84957f'},W:{code:'M01',name:'奶白',hex:'#e8e4d8'},R:{code:'M26',name:'莓红',hex:'#a86468'},B:{code:'M42',name:'灰蓝',hex:'#6d8396'}},
         missingRate:0, finalExpected:'B', notes:'最后正常编辑：2025/07/26 18:41。备注：最后一颗让她放。',
-        completeText:'最后一颗落下。画面仍只是桌子、两杯饮料、两把镊子和一个空椅子。桌角那一点灰蓝，和两年前那把雨伞是同一个颜色。'
+        completeText:'最后一颗落下。从上往下看，是一张桌子：两杯饮料分放左右，左边偏粉、右边偏绿；中间交叠着两把镊子，桌下留着一把空椅子。桌角外还垂着一枚灰蓝色的小雨伞挂件。'
       }
     },
     bookings: [
@@ -171,16 +171,16 @@ window.XM_DATA = (() => {
       {code:'M00',name:'系统占位',stock:'—',note:'不对应实体豆色，仅用于旧版数据迁移'}
     ],
     deviceLog: [
-      {time:'2025/07/26 18:41',device:'门店工作台 03',project:'IMG_0726',action:'保存 v17',detail:'豆数 72'},
-      {time:'2025/08/03 22:17',device:'门店工作台 03',project:'IMG_0726',action:'保存 v18',detail:'豆数 95'},
+      {time:'2025/07/26 18:41',device:'门店工作台 03',project:'IMG_0726',action:'保存 v17',detail:'豆数 93'},
+      {time:'2025/08/03 22:17',device:'门店工作台 03',project:'IMG_0726',action:'保存 v18',detail:'豆数 116'},
       {time:'2025/08/12 03:00',device:'系统迁移任务',project:'IMG_0726',action:'生成兼容索引',detail:'不修改图纸'},
       {time:'2025/08/12 03:00',device:'系统迁移任务',project:'便利店门口',action:'生成兼容索引',detail:'不修改图纸'}
     ],
     materialsUsage: [
-      {project:'IMG_0726',theory:96,used:97,source:'门店材料核销记录',note:'含 1 颗未映射旧色号'},
-      {project:'便利店门口',theory:182,used:182,source:'门店材料核销记录',note:'正常'},
-      {project:'公交站牌',theory:74,used:74,source:'历史预览修复',note:'按修复完成后的网格统计；旧图未形成单独核销单'},
-      {project:'蓝色小雨伞',theory:58,used:58,source:'历史订单',note:'正常'}
+      {project:'IMG_0726',theory:117,used:118,source:'门店材料核销记录',note:'含 1 颗未映射旧色号'},
+      {project:'便利店门口',theory:282,used:282,source:'门店材料核销记录',note:'正常'},
+      {project:'公交站牌',theory:101,used:101,source:'历史预览修复',note:'按修复完成后的网格统计；旧图未形成单独核销单'},
+      {project:'蓝色小雨伞',theory:79,used:79,source:'历史订单',note:'正常'}
     ],
     accountEvents: [
       {date:'2025/07/28 09:12',name:'唐梨',type:'协作者账户状态',text:'共同项目协作者账户转为冻结只读。旧项目仍保留原创建人与授权关系。'},

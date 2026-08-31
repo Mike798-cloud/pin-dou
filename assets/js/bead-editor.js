@@ -5,6 +5,7 @@ window.XM_BEADS = (()=>{
     const readonly=id==='final'&&state.migrated;
     let board;
     if(saved&&Array.isArray(saved.board)&&saved.board.length===target.length)board=[...saved.board];
+    else if(!free&&((state.completed&&state.completed[id])||(id==='final'&&(state.finalBead||state.migrated))))board=[...target];
     else board=free?target.map(()=>'.'):target.map((c,i)=>{if(c==='.')return'.';if(id==='final'&&i===finalIndex)return'.';return ((i*13+7)%100)<Math.round(P.missingRate*100)?'.':c});
     const targetCount=free?target.length:target.filter(c=>c!=='.').length,maxHistory=free?Math.min(target.length,1200):300;
     let selected=Object.keys(P.palette)[0],history=[],redo=[],eraseMode=false,panMode=false,showGuide=true,drag=false,cellSize=window.innerWidth<600?(P.size>=20?22:24):(P.size>=20?24:27),wasComplete=false,moreOpen=false,saveTimer=null;
